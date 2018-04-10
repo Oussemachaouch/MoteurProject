@@ -3,4 +3,12 @@
   <groupId>tn.vermeg</groupId>
   <artifactId>Moteur</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+  
+  </dependencies>
 </project>
