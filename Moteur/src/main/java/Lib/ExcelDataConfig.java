@@ -28,7 +28,6 @@ public class ExcelDataConfig {
 				FileInputStream fis=new FileInputStream(src);
 				wb = new XSSFWorkbook(fis);
 				
-				
 				if(src.isFile() && src.exists()) {
 				     System.out.println("File open successfully.");
 				  } else {
