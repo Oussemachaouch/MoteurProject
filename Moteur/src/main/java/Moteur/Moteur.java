@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import lib.ExcelDataConfig;
+import Lib.ExcelDataConfig;
 
 public class Moteur {
 
@@ -19,11 +19,11 @@ public class Moteur {
 		
 		try {
 			
-			File src = new File("C:\\Users\\ousse\\Desktop\\MoteurProject\\ExcelData.xlsx");
-			FileInputStream fis=new FileInputStream(src);
-			wb = new XSSFWorkbook(fis);
+		//	File src = new File("C:\\Users\\ousse\\Desktop\\MoteurProject\\ExcelData.xlsx");
+		//	FileInputStream fis=new FileInputStream(src);
+		//	wb = new XSSFWorkbook(fis);
 			
-			ExcelDataConfig excel = new ExcelDataConfig("C:\\Users\\ousse\\Desktop\\Excel\\ExcelData.xlsx");
+			ExcelDataConfig excel = new ExcelDataConfig("C:\\Users\\ousse\\Desktop\\MoteurProject\\ExcelData.xlsx");
 			
 			System.out.println("Iterations : ");
 			
